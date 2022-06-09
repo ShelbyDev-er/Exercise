@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bs-body-font-family: var(--bs-font-sans-serif);
+}
+
+body {
+    background-color: rgb(118, 121, 129);
+}
+
+.container {
+    width: 25%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.bd-card {
+    background-color: white;
+    border-radius: 7px;
+    width: 276px;
+    height: 380px;
+    border: 1px solid black;
+    margin: 20% auto;
+    box-sizing: border-box;
+    
+}
+
+.img-card {
+    
+}
+
+img {
+    border-radius: 7px 7px 0px 0px;
+    width: 100%;
+    height: 180px;
+    display: inline-block;
+    min-height: 1em;
+    vertical-align: middle;
+    cursor: wait;
+    background-color: currentcolor;
+    opacity: .5;
+
+}
+
+.card-title {
+    display: inline-block;
+    min-height: 1em;
+    vertical-align: middle;
+    cursor: wait;
+    background-color: currentcolor;
+    opacity: .5;
+    margin-left: 18px;
+}
+
+h1 {
+    font-family: var(--bs-body-font-family);
+    font-size: 1.5rem;
+    font-weight: 550;
+    
+}
+
+.card-content {
+    display: inline-block;
+    min-height: 1em;
+    vertical-align: middle;
+    cursor: wait;
+    background-color: currentcolor;
+    opacity: .5;
+    margin: 18px 18px;
+}
+
+h3 {
+    font-family: var(--bs-body-font-family);
+    font-size: 1.1rem;
+    font-weight: 300;
+    
+}
+
+.btn {
+    padding: 25px 18px;
+    font-family: var(--bs-body-font-family); 
+    
+}
+
+.button {
+    display: inline-block;
+    min-height: 1em;
+    vertical-align: middle;
+    cursor: wait;
+    background-color: currentcolor;
+    opacity: .5;
+
+    
+}

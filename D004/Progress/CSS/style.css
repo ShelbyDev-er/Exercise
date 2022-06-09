@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(155, 161, 170);
+}
+
+.container {
+    width: 80%;
+    height: 600px;
+    margin: 0% auto;
+}
+
+.progress {
+    width: 90%;
+    height: 6%;
+    margin: 10% auto;
+    border: 1px solid #000;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(7, 7, 7, 0.103);
+}
+
+.progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.progress1 {
+    background-color: rgb(233, 185, 51);
+    width: 50%;
+
+}
+
+.progress2 {
+    background-color: rgb(233, 72, 51);
+    width: 60%;
+
+}
+
+.progress3 {
+    background-color: rgb(215, 137, 235);
+    width: 70%;
+
+}
+
+.progress4 {
+    background-color: rgb(146, 190, 120);
+    width: 90%;
+
+}
